@@ -1,0 +1,84 @@
+.contenedor{
+    display:grid;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px repeat(4, auto);
+    grid-template-areas: "header   header  header  header"
+                         "parrafo  parrafo  imagen   imagen"
+                         "parrafo2 lista   lista2    login"
+                         "homero   copyR    copyR     copyR";
+                        
+                    justify-items: stretch;
+}
+.contenedor .uno{
+    background-color: grey;
+    grid-column-start: header;
+    grid-column-end: header;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contenedor .parrafo{
+    grid-column-start: parrafo;
+    grid-column-end: parrafo;
+    justify-self: left;
+    align-self:stretch;
+    
+}
+.contenedor .parrafo2{
+    grid-column-start: parrafo2;
+    grid-column-end: parrafo2;
+    justify-self: start;
+    align-self:left;
+   
+    
+}
+.contenedor .homero{
+    background-color: gainsboro;
+    grid-column-start: homero;
+    grid-column-end: homero;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+ .contenedor .imagen{
+     background-color:white;
+    grid-column-start: imagen;
+    grid-column-end: imagen;
+    border-radius:  30px;
+    justify-self:start;
+    align-self: flex-start;
+        
+}
+
+.contenedor .lista{
+    background-color: lavender;
+    grid-column-start: lista;
+    grid-column-end: lista;
+    
+}
+.contenedor .lista2{
+    background-color: lavender;
+    grid-column-start: lista2;
+    grid-column-end: lista2;
+    justify-self: start;
+    
+}
+
+.contenedor .login{
+    font-size: 18px;
+    background-color: rgb(12, 12, 12);
+    grid-column-start: login;
+    grid-column-end: login;
+    border-radius: 100px;
+    padding-left:  10px;
+    justify-self: center;
+}
+
+
+.contenedor .copyR{
+    grid-column-start: copyR;
+    grid-column-end: copyR;
+    text-align: center;
+    padding-top: 0px;
+
+}

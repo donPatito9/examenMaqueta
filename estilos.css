@@ -1,0 +1,90 @@
+
+
+body{
+    background-color:gainsboro;
+    margin: auto;
+    border-radius: 30px;
+}
+header{
+    background-color: grey;
+}
+
+.topnav {
+    background-color:grey;
+    padding-top: 0px;
+    float: right;
+}
+    .topnav a {
+    font-size: large;
+    background-color:white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    font-size: 20px;
+    color:black;
+    display: inline-block;
+    padding: 30px;
+    padding-left: 30px;
+
+    }
+    .copyR{
+        background-color: gainsboro;
+        padding-right: 0px;
+    
+    }
+   
+    .ventana{
+        color: whitesmoke;
+        font-size: 28px;
+        padding:90px;
+        display:none;
+        background-color: rgb(71, 66, 66);
+        position: absolute;
+        top: 600px;
+        left: 2000px;
+        border-radius:45px
+        
+        
+    }
+    
+    #cerrar{
+        color: red;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        font-size: 40px;
+        background-color: gray;
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        right: 25px;
+        top: 5px;
+        border-radius: 50%;
+    
+    }
+.icon{
+    
+    font-size: 18px;
+}
+  .imagen{
+      padding-left: 110px;
+  }
+
+    .contenedor{
+       margin: auto;
+       width: 90%;
+       max-height: 1200px;
+       max-width: 1200px;
+       border: 02px solid black;
+       font-size: 20px;
+       line-height: 30px;
+       text-align: left; 
+       border-radius: 20px;
+       padding: 20px;
+
+   }
+   .contenedor > div{
+       display: block;
+       padding: 30px;
+       background-color: gainsboro;
+       
+       
+   }
